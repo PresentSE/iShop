@@ -1,4 +1,5 @@
 $mainColor: #4c864a;
+
 * {
   margin: 0;
   padding: 0;
@@ -20,18 +21,16 @@ code {
 }
 
 .header {
-  display: flex;
-  overflow: hidden;
   background-color: #16932f;
   position: fixed;
   z-index: 50;
-  height: 120px;
+  height: 70px;
   width: 100%;
 }
 
 .header li {
-  display: inline;
-  float: right;
+  display: block;
+  float: left;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -49,6 +48,7 @@ code {
 }
 
 .header-main {
+  margin-right: 100px;
   display: flex;
 }
 
@@ -60,6 +60,10 @@ code {
   display: flex;
 }
 
+.header-burger-btn {
+  display: flex;
+}
+
 .main {
-  margin-top: 150px;
+  padding: 75px;
 }
