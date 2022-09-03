@@ -4,10 +4,10 @@ const Navbar = () => {
   return (
     <>
       <div className="header">
+        <Menu />
         <div className="header-container">
           <div className="header-main">
-            <Menu />
-            <div className="header-logo"></div>
+            <div className="header-logo">LOGO</div>
             <div className="header-search">
               <form action="search">
                 <input type="text" placeholder="Поиск" />

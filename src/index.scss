@@ -1,4 +1,4 @@
-$mainColor: #4c864a;
+$mainColor: #cfe7be;
 
 * {
   margin: 0;
@@ -23,7 +23,7 @@ code {
 .header {
   background-color: #16932f;
   position: fixed;
-  z-index: 50;
+  z-index: 10000;
   height: 70px;
   width: 100%;
 }
